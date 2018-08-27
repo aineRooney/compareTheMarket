@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Compare the market test","Get quote for electricity, when user does not have a bill, does not know who their supplier is, and does not know how much they spend","SUCCESS","2018-08-27T14:21:20.792+01:00","0.0","24.13"
+"Compare the market test","Get quote for electricity, when user does not have a bill, they are prepay and knows how much they spend","SUCCESS","2018-08-27T14:20:57.644+01:00","0.0","22.95"
+"Compare the market test","User gets quote for dual fuel, user knows their suppliers, knows how much they spend and want a variable month quote","SUCCESS","2018-08-27T14:21:44.926+01:00","0.0","36.72"

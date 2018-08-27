@@ -1,0 +1,141 @@
+<acceptance-test-run title="User gets quote for dual fuel, user knows their suppliers, knows how much they spend and want a variable month quote" name="getQuoteForDualEnergyOption" steps="45" successful="45" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="36721" timestamp="2018-08-27T14:21:44.926+01:00" test-source="JUnit">
+  <user-story id="acceptanceTests.compareTheMarketTest" name="Compare the market test" path="acceptanceTests"/>
+  <tags>
+    <tag name="Compare the market test" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="49">
+    <description>Supplier header is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="266">
+    <description>Enter post code: PE2 6YS</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5061">
+    <description>Change postcode is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="37">
+    <description>Same supplier question is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="96">
+    <description>Select yes have bill available</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="157">
+    <description>Select compare both</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="161">
+    <description>Select same supplier no</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="70">
+    <description>Elec supplier question is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="102">
+    <description>Select supplier name: Electricity, british-gas</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="60">
+    <description>Gas supplier question is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="117">
+    <description>Select supplier name: Gas, eon</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="132">
+    <description>Click next</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="51">
+    <description>Electricity heading is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="41">
+    <description>Electricity heading is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="546">
+    <description>Select elec tariff option: Fixed Price March 2018</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="220">
+    <description>Yes have elec meter</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="14874">
+    <description>Select elec payment option: Pay On Receipt Of Bill</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="121">
+    <description>Answer elec main heating question: yes</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="140">
+    <description>Usage option elec: pound</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="58">
+    <description>Elec kwh questions removed when pound selected</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="283">
+    <description>Spend amount elec: 200, Annually</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="31">
+    <description>Elec bill date is removed when annually selected</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="78">
+    <description>Click next btn on elec page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="49">
+    <description>Gas header is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="121">
+    <description>Answer gas main heating question: yes</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="113">
+    <description>Usage option gas: kwh</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="132">
+    <description>Usage amount gas: 200</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="81">
+    <description>Select next btn on usage page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="26">
+    <description>Preference header is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="188">
+    <description>Select tariff rate preference: variable</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="370">
+    <description>Select payment type preference: monthly</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="157">
+    <description>Enter email address: test@domain.com</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="81">
+    <description>Accept terms</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="451">
+    <description>Select next on preferences page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="5048">
+    <description>Wait for searching icon to be removed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="22">
+    <description>Results header is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="27">
+    <description>Results details is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="28">
+    <description>Results usage is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="39">
+    <description>Assert correct postcode is displayed: PE2 6YS</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="40">
+    <description>Assert correct elect supplier is displayed: British Gas</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="39">
+    <description>Assert correct gas supplier is displayed: E.ON</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="33">
+    <description>Recommendation btn is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="34">
+    <description>More tariffs btn is displayed</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="35">
+    <description>Check payment option: monthly</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="33">
+    <description>Check tariff option: variable</description>
+  </test-step>
+</acceptance-test-run>
